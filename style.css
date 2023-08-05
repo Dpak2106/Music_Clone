@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=Poppins:wght@400;700&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    background: #ede1e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Roboto+Slab', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 30px;
+}
+
+.brand img {
+    width: 70px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto+Slab', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg1.jpg);
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    margin-top: 13px;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 1px;
+}
+.songitem {
+    height: 45px;
+    display: flex;
+    
+    width: 90%;
+    color: white;
+    background-color:transparent;
+    margin: 2px 23px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songitem img {
+    width: 50px;
+    border-radius: 30px;
+}
+.timestamp{
+    margin: 0 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo {
+    position: absolute;
+    font-family: 'Roboto+Slab', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width :1100px) {
+    body{
+        background-color: red;
+    }
+    
+}
